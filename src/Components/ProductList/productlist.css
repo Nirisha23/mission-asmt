@@ -79,6 +79,8 @@ button.fav-icon-btn {
     background-color: #fff;
     position: absolute;
     top: 0;
+    right: 0;
+    font-size: 20px;
 }
 
 button.fav-icon-btn.active {
@@ -280,8 +282,7 @@ button.fav-icon-btn.active {
     .productlist-sm {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
-        padding: 12px 0;
+        padding: 6px 0;
     }
 
     .productlist-lg,
@@ -326,7 +327,13 @@ button.fav-icon-btn.active {
     }
 
     .product-card-container {
-        flex: 1 0 132px;
+        flex: 1 0 184px;
+    }
+
+    .product-card-container {
+        padding: 12px;
+        border: 1px solid #D9D9D9;
+        border-radius: 0;
     }
 
     .product-card-container img {

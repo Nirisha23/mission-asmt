@@ -9,7 +9,7 @@ const Products = [
         "badges": "Popular product"
     },
     {
-        "src": "https://ovantica.com/pub/media/catalog/product/cache/359e51c8e354c4e2b5af98e814f93978/1/2/12_pro_gold_1_.jpg",
+        "src": "https://www.mobileguruaustralia.com.au/wp-content/uploads/2021/07/iphone-12-pro-max.jpg",
         "title": "iPhone 12 Pro",
         "rating": 4.8,
         "price": 115999,
@@ -180,7 +180,7 @@ const Products = [
         "badges": ""
     },
     {
-        "src": "https://ovantica.com/pub/media/catalog/product/cache/359e51c8e354c4e2b5af98e814f93978/s/e/se2020-white.png",
+        "src": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-white_04152020_big.jpg.large.jpg",
         "title": "iPhone SE (2020)",
         "rating": 4.6,
         "price": 54000,
