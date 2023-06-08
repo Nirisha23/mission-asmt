@@ -183,6 +183,10 @@
         margin: 12px 24px;
     }
 
+    .nav-search select {
+        background-color: #fff;
+    }
+
     .nav-content {
         padding: 12px 24px;
     }
@@ -202,6 +206,10 @@
     .nav-search {
         width: 93%;
         margin: 12px 16px;
+    }
+
+    .nav-search select {
+        background-color: #fff;
     }
 
     .nav-logo img {
