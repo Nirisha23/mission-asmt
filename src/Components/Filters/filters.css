@@ -1,0 +1,138 @@
+.filters-container {
+    width: 25%;
+    border: 1px solid #D9D9D9;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.filters-head {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.filter-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--primary);
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+}
+
+.filter-checkbox:checked::before {
+    content: "\2713";
+    position: absolute;
+    top: 0;
+    bottom: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    color: var(--primary);
+}
+
+
+.product-type,
+.price-range,
+.discount,
+.customer-ratings,
+.develiry-time,
+.ram {
+    margin-bottom: 24px;
+}
+
+.product-type-head,
+.price-range-head,
+.discount-head,
+.customer-rating-head,
+.delivery-time-head,
+.ram-head,
+.internal-storage-head {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.product-type-col,
+.discount-col,
+.customer-ratings-col,
+.delivery-time-col,
+.ram-col,
+.internal-storage-col {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.product-verified,
+.popular-product {
+    display: flex;
+    gap: 8px;
+}
+
+.verified-icon {
+    color: #317CFE;
+}
+
+.crown-icon {
+    color: #FF8D24;
+}
+
+.css-187mznn-MuiSlider-root {
+    color: #16a34a !important;
+}
+
+.css-10drtbx-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 0 !important;
+    ;
+}
+
+.css-10drtbx-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+    color: #16a34a !important;
+}
+
+.body-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 24px auto;
+    gap: 24px;
+
+}
+
+/* responsive */
+/* Responsive */
+@media screen and (min-width: 1025px) {
+    .filterLg {
+        display: block;
+    }
+
+    .filterMd,
+    .filterSm {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 787px) and (max-width: 1024px) {
+    .filterMd {
+        display: block;
+    }
+
+    .filterLg,
+    .filterSm {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 786px) {
+    .filterSm {
+        display: block;
+    }
+
+    .filterLg,
+    .filterMd {
+        display: none;
+    }
+
+}
