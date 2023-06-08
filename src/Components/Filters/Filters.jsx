@@ -3,7 +3,6 @@ import { VscVerifiedFilled } from "react-icons/vsc";
 import { FaCrown } from "react-icons/fa";
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
-import { pink } from '@mui/material/colors';
 import Checkbox from '@mui/material/Checkbox';
 
 import ProductList from '../ProductList/ProductList';
@@ -12,13 +11,11 @@ import "./filters.css";
 function Filters() {
 
 
+    const FilterSm = ((props) => {
 
-    const FilterSm = (() => {
         return (
             <div>
-
                 <ProductList />
-
             </div>
         )
     })

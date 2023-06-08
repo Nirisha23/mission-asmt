@@ -44,7 +44,7 @@ function ProductCard() {
                                 <span>({item.noofratings})</span>
                             </div>
                             <div className='product-prices'>
-                                <div>
+                                <div className='price-container'>
                                     <p className='offer-price'>{formatNumber(item.offerprice)}</p>
                                     <p className='market-price'>{formatNumber(item.price)}</p>
                                 </div>
